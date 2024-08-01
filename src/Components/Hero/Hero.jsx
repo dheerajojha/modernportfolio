@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero-wrapper">
       <article>
-        <h1>I'm <span>Tenny</span>,<br />Product Designer</h1>
+        <h1>I am <span>Tenny</span>,<br />Product Designer</h1>
       </article>
       {/* hero img start */}
       <div className="hero-img">
