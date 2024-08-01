@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import './Blog.css'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { FaArrowAltCircleRight, FaRegArrowAltCircleRight } from 'react-icons/fa'
 const Blog = () => {
     const [blog, setBlog] = useState([{

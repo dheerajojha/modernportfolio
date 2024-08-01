@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { FaArrowRight } from "react-icons/fa"
-import Image from 'next/image'
+import Image from "next/legacy/image"
 const About = () => {
     return (
         <section className="about-wrapper grid-2">
