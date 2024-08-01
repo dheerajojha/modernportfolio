@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import { FaArrowRight } from "react-icons/fa"
 import Marquee from 'react-fast-marquee'
+import Image from 'next/image'
 const Hero = () => {
   return (
     <div className="hero-wrapper">
