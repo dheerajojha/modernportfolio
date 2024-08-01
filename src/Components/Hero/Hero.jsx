@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import Image from "next/legacy/image"
 import { FaArrowRight } from "react-icons/fa"
 import Marquee from 'react-fast-marquee'
 const Hero = () => {
@@ -12,7 +11,7 @@ const Hero = () => {
       {/* hero img start */}
       <div className="hero-img">
         <span className='triangle' />
-        <Image src='/Images/heropic2.png' alt='heropic' width={400} height={400} priority />
+        <Image src='/Images/heropic2.png' alt='heropic' width={400} height={400}/>
         <div className="hero-btn">
           <button className='cta'>
             <span><FaArrowRight /></span>
